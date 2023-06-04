@@ -1,4 +1,6 @@
 
+# In this doe I used "Pillow" writer which saves the resulted animation as a GIF file 
+
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
 import numpy as np
@@ -19,9 +21,10 @@ orbit = plt.Circle((0, 0), 1, color='blue', fill=False)
 ax.add_artist(orbit)
 
 # Creation of the Earth
+
 earth, = ax.plot([], [], 'o', color='green')
 
-# Set up animation parameters
+# Setting up the animation parameters
 frames = 360  # Number of frames
 angle = np.linspace(0, 2 * np.pi, frames)  # Angle for each frame
 x = np.cos(angle)  # x-coordinates of Earth's position
@@ -32,10 +35,10 @@ def update(frame):
     earth.set_data([x[frame]], [y[frame]])
     return earth,
 
-# Create the animation
+# Creating the animation
 ani = FuncAnimation(fig, update, frames=frames, interval=50, blit=True)
 
-# Save the animation as a GIF using the Pillow writer
+# Saving the animation as a GIF using the Pillow writer
 ani.save('earth_orbit.gif', writer='pillow')
 
 print("Animation saved as 'earth_orbit.gif'.")
