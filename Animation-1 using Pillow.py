@@ -1,5 +1,5 @@
 
-# In this doe I used "Pillow" writer which saves the resulted animation as a GIF file 
+# In this section, I used "Pillow" writer to write the code which combines the sequence of individual frames and saves the resulted animation as a GIF file 
 
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
