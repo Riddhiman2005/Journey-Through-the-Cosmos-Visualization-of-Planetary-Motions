@@ -1,0 +1,58 @@
+# Code is for Experiment.
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .sun {
+      width: 100px;
+      height: 100px;
+      background-color: yellow;
+      border-radius: 50%;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+    
+    .earth {
+      width: 50px;
+      height: 50px;
+      background-color: blue;
+      border-radius: 50%;
+      position: absolute;
+      animation: orbit 8s linear infinite;
+    }
+    
+    @keyframes orbit {
+      0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+      }
+      100% {
+        transform: translate(-50%, -50%) rotate(360deg);
+      }
+    }
+    
+    @keyframes wobble {
+      0% {
+        transform: translate(-50%, -50%) rotate(0deg) scale(1);
+      }
+      50% {
+        transform: translate(-50%, -50%) rotate(10deg) scale(1.1);
+      }
+      100% {
+        transform: translate(-50%, -50%) rotate(0deg) scale(1);
+      }
+    }
+    
+    .earth:hover {
+      animation: wobble 1s infinite;
+    }
+  </style>
+</head>
+<body>
+  <div class="sun"></div>
+  <div class="earth"></div>
+</body>
+</html>
