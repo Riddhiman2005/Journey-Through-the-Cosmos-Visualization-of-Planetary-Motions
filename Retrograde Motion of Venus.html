@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Retrograde Motion of Venus</title>
+    <style>
+        body {
+            background-color: #000;
+        }
+
+        .orbit {
+            position: relative;
+            width: 400px;
+            height: 400px;
+            margin: 100px auto;
+            border: 1px solid white;
+            border-radius: 50%;
+            animation: orbit-rotation 10s linear infinite;
+        }
+
+        .planet {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 40px;
+            height: 40px;
+            margin-top: -20px;
+            margin-left: -20px;
+            border-radius: 50%;
+            background-color: orange;
+            animation: planet-rotation 20s linear infinite;
+        }
+
+        .retrograde {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 10px;
+            height: 10px;
+            margin-top: -5px;
+            margin-left: -5px;
+            border-radius: 50%;
+            background-color: white;
+            animation: retrograde-motion 10s linear infinite;
+        }
+
+        @keyframes orbit-rotation {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        @keyframes planet-rotation {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        @keyframes retrograde-motion {
+            0%, 100% {
+                transform: translateX(-180px);
+            }
+
+            50% {
+                transform: translateX(180px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="orbit">
+        <div class="planet">
+            <div class="retrograde"></div>
+        </div>
+    </div>
+
+    <script>
+        // Additional JavaScript code can be added here if needed
+    </script>
+</body>
+</html>
