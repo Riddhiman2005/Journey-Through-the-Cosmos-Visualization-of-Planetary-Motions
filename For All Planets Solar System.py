@@ -20,14 +20,14 @@
         // Set up variables for each planet
         const sunRadius = 50;
         const planetData = [
-            { name: 'Mercury', radius: 10, distance: 100, speed: 0.005, color: 'gray' },
-            { name: 'Venus', radius: 15, distance: 150, speed: 0.004, color: 'orange' },
-            { name: 'Earth', radius: 20, distance: 200, speed: 0.003, color: 'blue' },
-            { name: 'Mars', radius: 18, distance: 250, speed: 0.002, color: 'red' },
-            { name: 'Jupiter', radius: 30, distance: 350, speed: 0.001, color: 'brown' },
-            { name: 'Saturn', radius: 28, distance: 450, speed: 0.0008, color: 'goldenrod' },
-            { name: 'Uranus', radius: 25, distance: 550, speed: 0.0006, color: 'cyan' },
-            { name: 'Neptune', radius: 23, distance: 650, speed: 0.0004, color: 'darkblue' }
+            { name: 'Mercury', radius: 10, distance: 70, speed: 0.008, color: 'gray' },
+            { name: 'Venus', radius: 15, distance: 120, speed: 0.006, color: 'orange' },
+            { name: 'Earth', radius: 20, distance: 170, speed: 0.004, color: 'blue' },
+            { name: 'Mars', radius: 18, distance: 220, speed: 0.003, color: 'red' },
+            { name: 'Jupiter', radius: 30, distance: 280, speed: 0.001, color: 'brown' },
+            { name: 'Saturn', radius: 28, distance: 340, speed: 0.0008, color: 'goldenrod' },
+            { name: 'Uranus', radius: 25, distance: 400, speed: 0.0006, color: 'cyan' },
+            { name: 'Neptune', radius: 23, distance: 460, speed: 0.0004, color: 'darkblue' }
         ];
 
         function draw() {
@@ -70,6 +70,4 @@
     </script>
 </body>
 </html>
-
-
 
