@@ -1,0 +1,64 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Earth Motion</title>
+    <style>
+        canvas {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="canvas" width="800" height="600"></canvas>
+
+    <script>
+        // Get the canvas element
+        const canvas = document.getElementById('canvas');
+        const ctx = canvas.getContext('2d');
+
+        // Set up variables
+        const sunRadius = 50;
+        const earthRadius = 25;
+        const earthDistance = 200;
+        const earthWobbleAmplitude = 10;
+        const earthWobbleFrequency = 0.1;
+
+        function draw() {
+            // Clear the canvas
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            // Draw the Sun
+            ctx.fillStyle = 'yellow';
+            ctx.beginPath();
+            ctx.arc(canvas.width / 2, canvas.height / 2, sunRadius, 0, 2 * Math.PI);
+            ctx.fill();
+
+            // Calculate the position of the Earth
+            const earthAngle = Date.now() * 0.0005; // Adjust the Earth's rotation speed
+            const earthX = canvas.width / 2 + earthDistance * Math.cos(earthAngle);
+            const earthY = canvas.height / 2 + earthDistance * Math.sin(earthAngle);
+
+            // Draw the Earth
+            ctx.fillStyle = 'blue';
+            ctx.beginPath();
+            ctx.arc(earthX, earthY, earthRadius, 0, 2 * Math.PI);
+            ctx.fill();
+
+            // Draw the orbit line for the Earth
+            ctx.strokeStyle = 'white';
+            ctx.lineWidth = 2;
+            ctx.beginPath();
+            ctx.arc(canvas.width / 2, canvas.height / 2, earthDistance, 0, 2 * Math.PI);
+            ctx.stroke();
+
+            // Request animation frame for smooth animation
+            requestAnimationFrame(draw);
+        }
+
+        // Start the animation
+        draw();
+    </script>
+</body>
+</html>
