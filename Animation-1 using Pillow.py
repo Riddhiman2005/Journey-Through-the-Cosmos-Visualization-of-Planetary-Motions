@@ -31,6 +31,7 @@ x = np.cos(angle)  # x-coordinates of Earth's position
 y = np.sin(angle)  # y-coordinates of Earth's position
 
 # Update function for animation
+
 def update(frame):
     earth.set_data([x[frame]], [y[frame]])
     return earth,
