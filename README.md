@@ -57,5 +57,10 @@ Though I've added all the videos and attached in the directories, folders of the
 ![image](https://github.com/Riddhiman2005/Journey-Through-the-Cosmos-Visualization-of-Planetary-Motions/assets/130882317/d9c3750a-7a53-4cfa-ba98-eb8738b6a49f)
 
 
+## Final Info ##
+
+**The repository is not complete. It's under development. I'll try to bring some more updated codes for better simulation**
+
+![image](https://github.com/Riddhiman2005/Journey-Through-the-Cosmos-Visualization-of-Planetary-Motions/assets/130882317/471951ef-5103-45be-ba5b-eeb6a067604c)
 
 
