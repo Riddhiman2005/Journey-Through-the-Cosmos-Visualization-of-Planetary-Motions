@@ -14,7 +14,7 @@ ax.set_axis_off()
 sun = plt.Circle((0, 0), 0.1, color='yellow')
 ax.add_artist(sun)
 
-# Let's create the Earth's orbit
+# Let's create Earth's orbit
 orbit = plt.Circle((0, 0), 1, color='blue', fill=False)
 ax.add_artist(orbit)
 
