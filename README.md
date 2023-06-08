@@ -1,4 +1,4 @@
-# Journey Through the Cosmos: Visualization of Earth's Revolution #
+# Journey Through the Cosmos: Visualisation of Earth's Revolution #
 
 
 |![Solar System-2](https://github.com/Riddhiman2005/Journey-Through-the-Cosmos-Visualization-of-Planetary-Motions/assets/130882317/d6b820ff-9924-4544-b311-c100155187c8) | 
@@ -34,6 +34,8 @@ This project is licensed under the MIT License.
 
 
 ![download](https://github.com/Riddhiman2005/Journey-Through-the-Cosmos-Visualization-of-Planetary-Motions/assets/130882317/064673ff-b3cf-4a2e-b247-25833191d748)
+
+<br>
 
 ## [YouTube](https://www.youtube.com/@riddhiman.bhattacharya6568) ##
 
