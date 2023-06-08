@@ -10,96 +10,21 @@ By Newton's second law, the sum of forces on the planet is equal to the mass of 
 ![lagrida_latex_editor (6)](https://github.com/Riddhiman2005/Journey-Through-the-Cosmos-Visualization-of-Planetary-Motions/assets/130882317/ba44c51a-3008-4d7f-910f-f97efe5daaec)
 
 
-
 Substituting the gravitational force, we have:
 
-This equation can be rearranged to solve for the acceleration vector $\vec{a}$:
+![lagrida_latex_editor (7)](https://github.com/Riddhiman2005/Journey-Through-the-Cosmos-Visualization-of-Planetary-Motions/assets/130882317/893b9a00-47a2-4820-8b0e-8b4136f9e5d5)
 
-�
-⃗
-=
-−
-�
-�
-�
-3
-�
-⃗
-a
- =− 
-r 
-3
- 
-GM
-​
-  
-r
- 
 
-To numerically integrate the positions of the planet, we can define a state vector $\vec{x}(t)$:
+This equation can be rearranged to solve for the acceleration vector ![lagrida_latex_editor (8)](https://github.com/Riddhiman2005/Journey-Through-the-Cosmos-Visualization-of-Planetary-Motions/assets/130882317/1ccdb566-9d21-4970-99f2-73d2b2f2ceb2):
 
-�
-⃗
-(
-�
-)
-=
-[
-�
-(
-�
-)
-�
-(
-�
-)
-�
-(
-�
-)
-�
-�
-(
-�
-)
-�
-�
-(
-�
-)
-�
-�
-(
-�
-)
-]
-x
- (t)= 
-⎣
-⎡
-​
-  
-x(t)
-y(t)
-z(t)
-v 
-x
-​
- (t)
-v 
-y
-​
- (t)
-v 
-z
-​
- (t)
-​
-  
-⎦
-⎤
-​
- 
+
+
+To numerically integrate the positions of the planet, we can define a state vector ![lagrida_latex_editor (2)](https://github.com/Riddhiman2005/Journey-Through-the-Cosmos-Visualization-of-Planetary-Motions/assets/130882317/02b6e330-94cf-4953-a1d7-f81d6209f553)
+
+![lagrida_latex_editor (4)](https://github.com/Riddhiman2005/Journey-Through-the-Cosmos-Visualization-of-Planetary-Motions/assets/130882317/251dcf86-9823-4d19-92d5-df5f4a3f252f)
+
+
+
 
 This state vector contains the position and velocity components of the planet in three-dimensional space.
 
