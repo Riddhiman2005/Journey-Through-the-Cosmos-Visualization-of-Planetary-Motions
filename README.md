@@ -37,6 +37,11 @@ This project is licensed under the MIT License.
 
 ## [YouTube](https://www.youtube.com/@riddhiman.bhattacharya6568) ##
 
+1) [Simulation of the Revolution of Earth around the Sun](https://youtu.be/rsVDR_ZD3Vg)
+2) [Simulation of Revolution of 8 Planets of the Solar System (using Html)](https://youtu.be/lKgy_fKTlCo)
+3) [Simulation of Rotation of Earth in 3D made using Html](https://youtu.be/5a_2UjC13Jg)
+4) [Simulation of Rotation of Earth in 2D](https://youtu.be/4LYR_Z08Y-w)
+5) [Simulation of Saturns Revolution around the Sun made using Html](https://youtu.be/f72vQAdT1Bw)
 
 
 
