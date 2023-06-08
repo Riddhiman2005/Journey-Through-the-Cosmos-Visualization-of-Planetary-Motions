@@ -7,8 +7,228 @@ where G is the gravitational constant, M is the mass of the central object (the 
 
 By Newton's second law, the sum of forces on the planet is equal to the mass of the planet times its acceleration:
 
-![Uploading lagrida_latex_editor (6).png…]()
+![lagrida_latex_editor (6)](https://github.com/Riddhiman2005/Journey-Through-the-Cosmos-Visualization-of-Planetary-Motions/assets/130882317/ba44c51a-3008-4d7f-910f-f97efe5daaec)
 
 
 
 Substituting the gravitational force, we have:
+
+This equation can be rearranged to solve for the acceleration vector $\vec{a}$:
+
+�
+⃗
+=
+−
+�
+�
+�
+3
+�
+⃗
+a
+ =− 
+r 
+3
+ 
+GM
+​
+  
+r
+ 
+
+To numerically integrate the positions of the planet, we can define a state vector $\vec{x}(t)$:
+
+�
+⃗
+(
+�
+)
+=
+[
+�
+(
+�
+)
+�
+(
+�
+)
+�
+(
+�
+)
+�
+�
+(
+�
+)
+�
+�
+(
+�
+)
+�
+�
+(
+�
+)
+]
+x
+ (t)= 
+⎣
+⎡
+​
+  
+x(t)
+y(t)
+z(t)
+v 
+x
+​
+ (t)
+v 
+y
+​
+ (t)
+v 
+z
+​
+ (t)
+​
+  
+⎦
+⎤
+​
+ 
+
+This state vector contains the position and velocity components of the planet in three-dimensional space.
+
+We can also define a function $f(\vec{x}, t)$ such that the derivative of the state vector is equal to $f(\vec{x}, t)$:
+
+�
+�
+⃗
+�
+�
+=
+�
+(
+�
+⃗
+,
+�
+)
+dt
+d 
+x
+ 
+​
+ =f( 
+x
+ ,t)
+
+In this case, $f(\vec{x}, t)$ is given by:
+
+�
+(
+�
+⃗
+,
+�
+)
+=
+[
+�
+�
+(
+�
+)
+�
+�
+(
+�
+)
+�
+�
+(
+�
+)
+−
+�
+�
+�
+(
+�
+)
+�
+3
+−
+�
+�
+�
+(
+�
+)
+�
+3
+−
+�
+�
+�
+(
+�
+)
+�
+3
+]
+f( 
+x
+ ,t)= 
+⎣
+⎡
+​
+  
+v 
+x
+​
+ (t)
+v 
+y
+​
+ (t)
+v 
+z
+​
+ (t)
+r 
+3
+ 
+−GMx(t)
+​
+ 
+r 
+3
+ 
+−GMy(t)
+​
+ 
+r 
+3
+ 
+−GMz(t)
+​
+ 
+​
+  
+⎦
+⎤
+​
+ 
+
+We can then use numerical integration methods to solve this system of differential equations and obtain the positions and velocities of the planet as functions of time.
+
+
+
+
+
+
