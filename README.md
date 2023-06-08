@@ -8,6 +8,14 @@ providing a captivating visualization of Earth's revolution around the Sun using
 
 The primary objective of this project is to create an intriguing experience that allows users to understand and appreciate the complex motion of Earth as it orbits the Sun. 
 
+## Coding Languages ##
+
+The coding languages we used to simulate the planetary motions are
+ 
+ 1) **Python**
+ 2) **Html**
+ 3) **Css**
+
 
 
 ## Contributions ##
