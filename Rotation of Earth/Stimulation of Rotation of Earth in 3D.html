@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rotation of Earth (3D)</title>
+    <style>
+        body {
+            background-color: #000;
+            margin: 0;
+            padding: 0;
+        }
+
+        #earth {
+            position: absolute;
+            top: calc(50% - 100px);
+            left: calc(50% - 100px);
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 2px solid blue;
+            transform-style: preserve-3d;
+            animation: earth-rotation 6s linear infinite;
+        }
+
+        #earth::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('https://png.pngtree.com/element_our/sm/20180103/sm_5a4d2b0160281.png');
+            background-size: cover;
+            border-radius: 50%;
+        }
+
+        @keyframes earth-rotation {
+            from {
+                transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+            }
+            to {
+                transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="earth"></div>
+</body>
+</html>
