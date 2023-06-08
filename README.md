@@ -5,16 +5,10 @@
 |:--:| 
 | **Solar System** |
 
+This project aims to inspire curiosity and
+foster a greater appreciation for the wonders of celestial motions 
+providing a captivating visualization of Planetary motions using programming.
 
-
-
-This project aims to inspire curiosity about our place in the universe and
-foster a greater appreciation for the wonders of celestial motion and 
-providing a captivating visualization of Earth's revolution around the Sun using **Python** programming.
-
-## Objective ##
-
-The primary objective of this project is to create an intriguing experience that allows users to understand and appreciate the complex motion of Earth as it orbits the Sun. 
 
 ![Solar system](https://github.com/Riddhiman2005/Journey-Through-the-Cosmos-Visualization-of-Planetary-Motions/assets/130882317/1657be2f-acb3-4b78-b55a-e34672437417)
 
@@ -31,7 +25,7 @@ The coding languages we used to simulate the planetary motions are
 
 ## Contributions ##
 
-We welcome contributions from the open-source community to enhance the features of this project. If you have ideas, bug fixes, or additional functionalities, feel free to submit a pull request. Together, we can create an even more impressive visualization of Earth's revolution.
+If you have ideas, bug fixes, additional functionalities, feel free to submit a pull request. Together, we can create an even more impressive visualization of Earth's revolution. Or if you update the codes to make it more interesting, you're cordially welcomed to submit a pull request.
 
 
 ## License ##
@@ -39,5 +33,5 @@ We welcome contributions from the open-source community to enhance the features 
 This project is licensed under the MIT License. 
 
 
+![Rotation of Earth-2](https://github.com/Riddhiman2005/Journey-Through-the-Cosmos-Visualization-of-Planetary-Motions/assets/130882317/67c76e87-5e21-4284-adff-50f843b04eb0)
 
-**The Project is not completed.It's under development**
