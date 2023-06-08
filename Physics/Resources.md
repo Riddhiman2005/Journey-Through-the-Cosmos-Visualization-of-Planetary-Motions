@@ -16,3 +16,9 @@ preface as "supplements to the text".
 
 This [lecture note](https://www.uio.no/studier/emner/matnat/astro/nedlagte-emner/AST1100/h13/undervisningsmateriale/ast1100-fullstendig.pdf) from University of OSLO discusses two body problems in very details.
  **It's a must read.**
+
+
+
+We'll use the data four our problem, we got from Nasa's JPL under Caltech resource. Link Below.
+
+https://naif.jpl.nasa.gov/naif/toolkit.html
