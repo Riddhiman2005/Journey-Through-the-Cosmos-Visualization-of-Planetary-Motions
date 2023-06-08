@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rotation of Earth</title>
+    <style>
+        body {
+            background-color: #000;
+            margin: 0;
+            padding: 0;
+        }
+
+        #earth {
+            position: absolute;
+            top: calc(50% - 100px);
+            left: calc(50% - 100px);
+            width: 200px;
+            height: 200px;
+            background-image: url('https://png.pngtree.com/element_our/sm/20180103/sm_5a4d2b0160281.png');
+            background-size: cover;
+            border-radius: 50%;
+            border: 2px solid blue;
+            transform-origin: bottom center;
+            animation-name: earth-rotation;
+            animation-duration: 6s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+        @keyframes earth-rotation {
+            from {
+                transform: rotateX(23.5deg) rotateZ(0deg);
+            }
+            to {
+                transform: rotateX(23.5deg) rotateZ(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="earth"></div>
+
+    <script>
+      
+        // Get the element
+      
+        const earth = document.getElementById('earth');
+
+        // Set the inclination angle (in degrees)
+      
+        const inclinationAngle = 23.5;
+
+        // Applying the inclination transform to Earth
+      
+        earth.style.transform = `rotateX(${inclinationAngle}deg)`;
+
+        // Define the animation function
+      
+        function animate() {
+            
+          // Call the animate function recursively
+          
+            requestAnimationFrame(animate);
+        }
+
+        // Start the animation
+      
+        animate();
+    </script>
+</body>
+</html>
+
