@@ -4,7 +4,7 @@ The white lines on Saturn are  the rings of the Saturn.
 
 Also, observe carefully the motion of the Saturn is from anticlockwise. It first goes behind the Sun and then comes forward.
 
-The total animation time to move around the Saturn has been set to 10 secs.
+The total animation time to move around the Sun by Saturn has been set to 10 secs.
 
 
 
