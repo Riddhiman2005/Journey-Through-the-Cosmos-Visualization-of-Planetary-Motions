@@ -30,124 +30,14 @@ This state vector contains the position and velocity components of the planet in
 
 We can also define a function $f(\vec{x}, t)$ such that the derivative of the state vector is equal to $f(\vec{x}, t)$:
 
-�
-�
-⃗
-�
-�
-=
-�
-(
-�
-⃗
-,
-�
-)
-dt
-d 
-x
- 
-​
- =f( 
-x
- ,t)
+
+![lagrida_latex_editor (2)](https://github.com/Riddhiman2005/Journey-Through-the-Cosmos-Visualization-of-Planetary-Motions/assets/130882317/c6fa9b3b-6f65-4db8-862b-3afb6a2f5763)
+
 
 In this case, $f(\vec{x}, t)$ is given by:
 
-�
-(
-�
-⃗
-,
-�
-)
-=
-[
-�
-�
-(
-�
-)
-�
-�
-(
-�
-)
-�
-�
-(
-�
-)
-−
-�
-�
-�
-(
-�
-)
-�
-3
-−
-�
-�
-�
-(
-�
-)
-�
-3
-−
-�
-�
-�
-(
-�
-)
-�
-3
-]
-f( 
-x
- ,t)= 
-⎣
-⎡
-​
-  
-v 
-x
-​
- (t)
-v 
-y
-​
- (t)
-v 
-z
-​
- (t)
-r 
-3
- 
-−GMx(t)
-​
- 
-r 
-3
- 
-−GMy(t)
-​
- 
-r 
-3
- 
-−GMz(t)
-​
- 
-​
-  
-⎦
-⎤
-​
+![lagrida_latex_editor (3)](https://github.com/Riddhiman2005/Journey-Through-the-Cosmos-Visualization-of-Planetary-Motions/assets/130882317/4545de4b-d7fe-441c-adeb-e09746735a47)
+
  
 
 We can then use numerical integration methods to solve this system of differential equations and obtain the positions and velocities of the planet as functions of time.
