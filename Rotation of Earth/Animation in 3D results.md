@@ -7,7 +7,11 @@ The Picture we used in the code
 
 ## Video ##
 
-https://github.com/Riddhiman2005/Journey-Through-the-Cosmos-Visualization-of-Earth-s-Revolution/assets/130882317/d25110ac-5f29-4447-9928-fcba577d1a37
+
+
+https://github.com/Riddhiman2005/Journey-Through-the-Cosmos-Visualization-of-Earth-s-Revolution/assets/130882317/04bd45fd-fef2-435f-84f4-f023583c05c0
+
+
 
 
 
