@@ -48,7 +48,7 @@ In this case, $f(\vec{x}, t)$ is given by:
 ![lagrida_latex_editor (3)](https://github.com/Riddhiman2005/Journey-Through-the-Cosmos-Visualization-of-Planetary-Motions/assets/130882317/4545de4b-d7fe-441c-adeb-e09746735a47)
 
  
-We can then use numerical integration methods to solve this system of differential equations and obtain the positions and velocities of the planet as functions of time.
+We can then use **numerical integration methods (Euler's Method)** to solve this system of differential equations and obtain the positions and velocities of the planet as functions of time.
 
 
 
