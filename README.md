@@ -25,7 +25,9 @@ The coding languages we used to simulate the planetary motions are
 
 ## Contributions ##
 
-If you have ideas, bug fixes, additional functionalities, feel free to submit a pull request. Together, we can create an even more impressive visualization of Earth's revolution. Or if you update the codes to make it more interesting, you're cordially welcomed to submit a pull request.
+If you have ideas, bug fixes, additional functionalities, feel free to submit a pull request. 
+Together, we can create an even more impressive visualization of Earth's revolution. Or if you update the 
+codes to make it more interesting, you're cordially welcomed to submit a pull request.
 
 
 ## License ##
