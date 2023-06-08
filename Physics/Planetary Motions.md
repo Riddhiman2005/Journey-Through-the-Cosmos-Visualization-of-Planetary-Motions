@@ -1,4 +1,9 @@
 
+**Planetary orbits are elliptical and orbit the system's barycenter**.
+
+For individuals who are unfamiliar with Barycentre, read this [wikipedia article](https://en.wikipedia.org/wiki/Barycenter). It has animations that add insights to the topic.
+
+# Physics and Mathematics #
 
 The gravitational force on a planet with mass $m$ can be described by the equation
 
