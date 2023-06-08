@@ -33,5 +33,6 @@ If you have ideas, bug fixes, additional functionalities, feel free to submit a 
 This project is licensed under the MIT License. 
 
 
-![Rotation of Earth-2](https://github.com/Riddhiman2005/Journey-Through-the-Cosmos-Visualization-of-Planetary-Motions/assets/130882317/67c76e87-5e21-4284-adff-50f843b04eb0)
+![download](https://github.com/Riddhiman2005/Journey-Through-the-Cosmos-Visualization-of-Planetary-Motions/assets/130882317/064673ff-b3cf-4a2e-b247-25833191d748)
+
 
