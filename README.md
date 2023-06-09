@@ -1,4 +1,5 @@
-# Journey Through the Cosmos: Visualisation of Earth's Revolution #
+# Journey Through the Cosmos: Visualization of Earth's Revolution #
+
 
 
 |![Solar System-2](https://github.com/Riddhiman2005/Journey-Through-the-Cosmos-Visualization-of-Planetary-Motions/assets/130882317/d6b820ff-9924-4544-b311-c100155187c8) | 
@@ -62,5 +63,7 @@ Though I've added all the videos and attached in the directories, folders of the
 **The repository is not complete. It's under development. I'll try to bring some more updated codes for better simulation**
 
 ![image](https://github.com/Riddhiman2005/Journey-Through-the-Cosmos-Visualization-of-Planetary-Motions/assets/130882317/471951ef-5103-45be-ba5b-eeb6a067604c)
+
+### This repo. is not complete. It's **UNDER DEVELOPMENT** ###
 
 
